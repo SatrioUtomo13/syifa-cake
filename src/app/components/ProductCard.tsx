@@ -19,7 +19,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
     // const imageUrl = "https://www.instagram.com/p/DLPmhOvRy0H/";
     const handleBuyClick = () => {
         const msg = `Hai, saya mau beli ${product.name} seharga Rp.${product.price}. Lihat gambarnya di sini: ${product.imageUrl}`;
-        const whatsapUrl = `https://wa.me/6285179744151?text=${encodeURIComponent(msg)}`
+        const whatsapUrl = `https://wa.me/6285711833162?text=${encodeURIComponent(msg)}`
         window.open(whatsapUrl, '_blank')
     }
 
